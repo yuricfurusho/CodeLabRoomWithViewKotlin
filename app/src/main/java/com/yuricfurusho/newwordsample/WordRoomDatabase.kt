@@ -31,4 +31,3 @@ public abstract class WordRoomDatabase : RoomDatabase() {
         }
     }
 }
-
