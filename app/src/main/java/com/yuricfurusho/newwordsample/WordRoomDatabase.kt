@@ -55,12 +55,12 @@ public abstract class WordRoomDatabase : RoomDatabase() {
         }
 
         fun populateDatabase(wordDao: WordDao) {
-            wordDao.deleteAll()
+//            wordDao.deleteAll()
 
-            var word = Word("Hello")
-            wordDao.insert(word)
-            word = Word("World!")
-            wordDao.insert(word)
+//            var word = Word("Hello")
+//            wordDao.insert(word)
+//            word = Word("World!")
+//            wordDao.insert(word)
         }
     }
 }
